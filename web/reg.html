@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <style>
+      /* ul{
+ 
+ padding:0;
+ list-style: none;
+ display:inline-flex;
+ color: #094B72;
+}
+ul li a{
+ display: inline-block;
+ padding: 40px 20px;
+ background-color:white;
+ color:darkgrey;
+ text-decoration: none;
+ font-size:20px;
+ padding-right: 50px;
+ /* color: #094B72; }*/
+
+ul li a:hover{
+  color:turquoise;
+}
+          .left,.right{
+        float:left;
+        width:50%;
+      } */
+      input[type=text] ,input[type=email],input[type=number],input[type=password]{
+  width: 500px;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+input[type=submit]
+{
+  width: 500px;
+  padding: 12px 12px;
+  margin: 8px 0;
+  background-color:#6610f2;
+  color:white;
+  border: none;
+  border-radius: 10px;
+}
+Input:hover[type="submit"] {
+  background-color: blueviolet;
+}
+footer{
+  color:#094B72;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  padding-left: 20px;
+}
+label{
+  font-size: 18px;
+  color: gray;
+}
+p{
+  font-size: 20px;
+  color: darkgrey;
+}
+    </style>
+</head>
+<body>
+  <!-- <header class="header">
+    
+    <ul>
+       
+        <img src="./img/logo.png" width="120"height="100"alt="" srcset="">
+        <li><a href="index.html" target="_blank" >Home </a></li>
+        <li><a href="Single-product.html" target="_blank">Single Product</a></li>
+        <li><a href="checkout.html" target="_blank">Checkout</a></li>
+        <li><a href="registration.html" target="_blank">Registration </a></li>
+        <li><a href="contact_map.html" target="_blank">Contact with map </a></li>
+
+        
+    </ul>
+</header> -->
+<div class="container">
+<div class="row">
+
+  <div class="col-lg-6 col-sm-6 col-md-6">
+ <form action="">
+   <h2>Login</h2>
+   <label for="email">Username or email address *</label><br>
+   <input type="email" name="email" id="email"><br><br>
+   <label for="password">Password *</label><br>
+   <input type="password" name="password" id="password"><br><br>
+   <input type="checkbox" name="" id="remember">
+   <label for="remember">Remember me</label>
+   <a href="">Forgot Password?</a></br>
+   <input type="submit" value="LOGIN">
+  </form>
+</div>
+<div class="col-lg-6 col-sm-6 col-md-6">
+  <form action="">
+   <h2>Register</h2>
+   <label for="email">Email address *</label><br>
+   <input type="email" name="email" id="email"><br><br>
+   <label for="password">Password *</label><br>
+   <input type="password" name="password" id="password"><br><br>
+   <input type="checkbox" name="" id="customer">
+   <label for="customer"> I am Admin</label><br>
+   <input type="checkbox" name="" id="vendor">
+   <label for="vendor"> I am a student</label><br>
+   <input type="checkbox" name="" id="vendor">
+   <label for="vendor"> I am a provost</label>
+   <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
+   <input type="submit" value="REGISTER">
+  </form>
+</div>
+</div>
+
+</div>
+
+</body>
